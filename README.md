@@ -1,4 +1,4 @@
-# Techerudite Practical Task - Laravel Authentication
+
 
 ## Description
 
