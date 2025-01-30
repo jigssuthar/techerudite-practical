@@ -39,6 +39,7 @@ Clone this repository to your local machine:
 - composer require spatie/laravel-permission
 - php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
 - php artisan migrate
+- php artisan db:seed
 - npm install
 - npm run dev
 - php artisan serve
