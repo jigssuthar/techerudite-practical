@@ -42,6 +42,6 @@ class AdminRegisterController extends Controller
 
         event(new Registered($user));
 
-        return redirect()->route('login')->with('status', 'Registration successful, please check your email for verification.');
+        return redirect()->route('admin.login')->with('status', 'Registration successful, please check your email for verification.');
     }
 }

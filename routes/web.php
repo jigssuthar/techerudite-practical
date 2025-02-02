@@ -33,11 +33,11 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 
-Route::get('customer-register', [CustomerRegisterController::class, 'showRegistrationForm'])->name('customer.register');
-Route::post('customer-register', [CustomerRegisterController::class, 'register']);
+Route::get('customer/register', [CustomerRegisterController::class, 'showRegistrationForm'])->name('customer.register');
+Route::post('customer/register', [CustomerRegisterController::class, 'register']);
 
-Route::get('admin-register', [AdminRegisterController::class, 'showRegistrationForm'])->name('admin.register');
-Route::post('admin-register', [AdminRegisterController::class, 'register']);
+Route::get('admin/register', [AdminRegisterController::class, 'showRegistrationForm'])->name('admin.register');
+Route::post('admin/register', [AdminRegisterController::class, 'register']);
 
 
 Route::get('admin/login', [AdminLoginController::class, 'showLoginForm'])->name('admin.login');
