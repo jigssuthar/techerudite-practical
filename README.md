@@ -45,8 +45,8 @@ Clone this repository to your local machine:
 - php artisan serve
 
 ### Route
- - http://127.0.0.1:8000/customer-register For Cutomer Register
- - http://127.0.0.1:8000/admin-register For Admin Register
+ - http://127.0.0.1:8000/customer/register For Cutomer Register
+ - http://127.0.0.1:8000/admin/register For Admin Register
  - http://127.0.0.1:8000/login  for customer login
  - http://127.0.0.1:8000/admin/login  for admin login
 
